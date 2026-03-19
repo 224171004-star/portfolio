@@ -86,9 +86,9 @@ export default function HomePage() {
                 icon: "🏷️",
               },
               {
-                title: "Audio Engineering",
-                description: "Crystal clear audio mix with noise reduction.",
-                icon: "🎵",
+                title: "Promotional Videos",
+                description: "Compelling marketing videos that drive engagement and conversions.",
+                icon: "📹",
               },
             ].map((service, index) => (
               <div key={service.title} className="h-full">

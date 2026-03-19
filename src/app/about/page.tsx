@@ -52,7 +52,7 @@ export default function AboutPage() {
               header={
                 <div className="relative w-full h-full min-h-[28rem] md:min-h-[16rem] rounded-xl overflow-hidden group-hover/bento:scale-[1.02] transition-transform duration-500">
                   <Image
-                    src="/hruthik.jpg"
+                    src="/placeholder-profile.jpg"
                     alt="Hruthik P"
                     fill
                     className="object-cover object-top grayscale-[0] hover:grayscale-0 transition-all duration-500"
@@ -71,7 +71,7 @@ export default function AboutPage() {
                     </m.div>
                     <div className="h-1 w-16 md:w-20 bg-purple-500 mt-4 rounded-full" />
                     <p className="text-gray-300 mt-4 text-xs md:text-sm font-medium tracking-wide uppercase">
-                      Professional Video Editor
+                      Video Editor and Cinematographer
                     </p>
                   </div>
                 </div>

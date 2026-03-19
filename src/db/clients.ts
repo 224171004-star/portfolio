@@ -31,4 +31,15 @@ export const clientsData: Client[] = [
     name: "Eco Farming",
     logo: "/companies/Ecofarming.png",
   },
+  {
+    id: "chellamay",
+    name: "Chella May",
+    logo: "/companies/chellamay.jpg",
+  },
+  // Add your new brand logos here:
+  // {
+  //   id: "your-brand-id", // unique identifier (lowercase, no spaces)
+  //   name: "Your Brand Name", // display name
+  //   logo: "/companies/your-logo.png", // path to your logo file
+  // },
 ];

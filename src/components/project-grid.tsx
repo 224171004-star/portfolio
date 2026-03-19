@@ -54,10 +54,8 @@ export default function ProjectGrid({ initialCategories, initialProjects }: Proj
     setLoading(false);
   }, [currentPage, allProjects, loading, hasMore]);
 
-  // Infinite scroll for non-"All" categories
+  // Infinite scroll for all categories
   useEffect(() => {
-    if (selectedCategory === "All") return;
-
     const handleScroll = () => {
       if (
         window.innerHeight + document.documentElement.scrollTop >=
@@ -69,7 +67,7 @@ export default function ProjectGrid({ initialCategories, initialProjects }: Proj
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [selectedCategory, loadMoreProjects]);
+  }, [loadMoreProjects]);
 
   return (
     <>

@@ -16,17 +16,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
+      href: "https://youtube.com/@your-youtube-channel",
       icon: Youtube,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/hruthik__offcl?igsh=bTZ0bHJmeDV0ZjF0",
+      href: "https://www.instagram.com/hruthik__offcl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       icon: Instagram,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
+      href: "https://linkedin.com/in/your-linkedin-profile",
       icon: Linkedin,
     },
     {
@@ -48,10 +48,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Hruthik P
+              Portfolio
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Video Editor and Motion Graphics Designer passionate about
+              Video Editor and Cinematographer passionate about
               creating visual stories with style, precision, and cinematic
               magic.
             </p>

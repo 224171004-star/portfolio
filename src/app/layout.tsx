@@ -16,13 +16,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Hruthik P – Video Editor & Motion Graphics Designer",
+    default: "Hruthik P - Video Editor & Cinematographer",
     template: "%s | Hruthik P",
   },
   description:
-    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Hruthik P specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
+    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Specializing in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
   keywords: [
-    "Hruthik P",
     "Video Editor",
     "Motion Graphics Designer",
     "DaVinci Resolve",
@@ -34,7 +33,6 @@ export const metadata: Metadata = {
     "Logo Animation",
     "Visual Storytelling",
     "Freelance Video Editor",
-    "Bangladesh Video Editor",
     "Cinematic Editing",
     "Content Creator",
     "Lower Thirds",
@@ -57,25 +55,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Hruthik P – Video Editor & Motion Graphics Designer",
+    title: "Hruthik P - Video Editor & Cinematographer",
     description:
-      "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
+      "Passionate Video Editor and Cinematographer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
     siteName: "Hruthik P Portfolio",
     images: [
       {
-        url: "/hruthik.jpeg",
+        url: "/placeholder-profile.jpg",
         width: 1200,
         height: 630,
-        alt: "Hruthik P - Video Editor",
+        alt: "Hruthik P",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hruthik P – Video Editor & Motion Graphics Designer",
+    title: "Hruthik P - Video Editor & Cinematographer",
     description:
       "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    images: ["/hruthik.jpeg"],
+    images: ["/placeholder-profile.jpg"],
   },
   verification: {
     google: "your-google-verification-code",
@@ -106,14 +104,14 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Hruthik P",
-              image: "/hruthik.jpeg",
+              image: "/placeholder-profile.jpg",
               sameAs: [
-                "https://linkedin.com/in/hruthik-p", // update if available
-                "https://youtube.com/@hruthikp", // update if available
-                "https://twitter.com/hruthikp", // update if available
-                "https://instagram.com/hruthik__offcl",
+                "https://linkedin.com/in/your-linkedin-profile", // update if available
+                "https://youtube.com/@your-youtube-channel", // update if available
+                "https://twitter.com/your-twitter-handle", // update if available
+                "https://www.instagram.com/hruthik__offcl?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
               ],
-              jobTitle: "Video Editor & Motion Graphics Designer",
+              jobTitle: "Video Editor & Cinematographer",
               knowsAbout: [
                 "Video Editing",
                 "Motion Graphics",
@@ -129,7 +127,7 @@ export default function RootLayout({
               },
               alumniOf: {
                 "@type": "Organization",
-                name: "Green University of Bangladesh",
+                name: "Your University Name",
               },
             }),
           }}

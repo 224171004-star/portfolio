@@ -81,7 +81,7 @@ export default function SkillsPage() {
               >
                 <GlassmorphismCard className="p-6">
                   <div className="flex items-center mb-4 space-x-4">
-                    <div className="relative w-12 md:w-16 h-12 md:h-16">
+                    <div className="relative w-12 md:w-16 h-12 md:h-16 rounded-xl overflow-hidden bg-white/5 p-2 flex items-center justify-center">
                       <Image
                         src={skill.image_link}
                         alt={skill.name}
