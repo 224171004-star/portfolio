@@ -2,6 +2,6 @@ export const categories = [
   "All",
   "B-roll",
   "Advertisement",
-  "educational",
+  "Educational",
   "Reels Promotions",
 ];
