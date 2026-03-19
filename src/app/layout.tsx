@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "Lower Thirds",
     "Audio Sync",
   ],
-  authors: [{ name: "Hruthik P", url: "https://www.itsniloy.me" }],
+  authors: [{ name: "Hruthik P" }],
   creator: "Hruthik P",
   publisher: "Hruthik P",
   robots: {
@@ -57,7 +57,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.itsniloy.me",
     title: "Hruthik P – Video Editor & Motion Graphics Designer",
     description:
       "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
@@ -76,14 +75,13 @@ export const metadata: Metadata = {
     title: "Hruthik P – Video Editor & Motion Graphics Designer",
     description:
       "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    creator: "@niloy_bhowmick", // update if you have a real Twitter handle
     images: ["/hruthik.jpeg"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.itsniloy.me",
+    canonical: "/",
   },
   category: "Video Editing",
 };
@@ -108,13 +106,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Hruthik P",
-              url: "https://www.itsniloy.me",
               image: "/hruthik.jpeg",
               sameAs: [
-                "https://www.itsniloy.me",
-                "https://linkedin.com/in/niloybhowmick", // update if available
-                "https://youtube.com/@niloybhowmick", // update if available
-                "https://twitter.com/niloy_bhowmick", // update if available
+                "https://linkedin.com/in/hruthik-p", // update if available
+                "https://youtube.com/@hruthikp", // update if available
+                "https://twitter.com/hruthikp", // update if available
+                "https://instagram.com/hruthik__offcl",
               ],
               jobTitle: "Video Editor & Motion Graphics Designer",
               knowsAbout: [

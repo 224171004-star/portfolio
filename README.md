@@ -1,4 +1,4 @@
-# Niloy Bhowmick
+# Hruthik P
 
 <div align="center">
 
@@ -11,8 +11,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-
-[**🌐 Live Website**](https://www.itsniloy.me)
 
 </div>
 
@@ -36,8 +34,8 @@ This project implements a unique **"Midnight Liquid Glass"** aesthetic, focusing
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/maruf-pfc/niloy-bhowmick.git
-    cd niloy-bhowmick
+    git clone https://github.com/Hruthikstar/portfolio.git
+    cd portfolio
     ```
 
 2.  **Install dependencies**
@@ -52,7 +50,7 @@ This project implements a unique **"Midnight Liquid Glass"** aesthetic, focusing
     Add your environment variables:
     ```env
     RESEND_API_KEY=your_resend_api_key_here
-    NEXT_PUBLIC_SITE_URL=https://www.itsniloy.me
+    NEXT_PUBLIC_SITE_URL=your_website_url_here
     ```
 
 4.  **Run the development server**
@@ -79,7 +77,7 @@ pnpm start
 3.  Add environment variables in Vercel dashboard:
     ```env
     RESEND_API_KEY=your_production_resend_key
-    NEXT_PUBLIC_SITE_URL=https://www.itsniloy.me
+    NEXT_PUBLIC_SITE_URL=your_production_website_url
     ```
 4.  Deploy automatically.
 
@@ -91,7 +89,7 @@ pnpm start
 ## 📂 Project Structure
 
 ```plaintext
-📦niloy-bhowmick
+📦hruthik-portfolio
  ┣ 📂public
  ┃ ┣ 📂companies
  ┃ ┣ 📂project-images
@@ -99,7 +97,7 @@ pnpm start
  ┃ ┣ 📜demo.png
  ┃ ┣ 📜logo-transparent.png
  ┃ ┣ 📜logo-white.png
- ┃ ┣ 📜niloybhowmick.png
+ ┃ ┣ 📜hruthik.jpeg
  ┃ ┗ 📜not-found.jpg
  ┣ 📂src
  ┃ ┣ 📂app
@@ -198,6 +196,6 @@ export const videoProjectsData = {
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=maruf-pfc/niloy-bhowmick&type=Date)](https://star-history.com/#maruf-pfc/niloy-bhowmick&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Hruthikstar/portfolio&type=Date)](https://star-history.com/#Hruthikstar/portfolio&Date)
 
 </div>
